@@ -16,6 +16,7 @@ export default function Index() {
 
   return (
     <div className="Main">
+        <p>Kelompok 06</p>
       {dogImage &&
         dogImage.map((dog) => (
           <img width={"200px"} height={"200px"} src={dog}></img>
